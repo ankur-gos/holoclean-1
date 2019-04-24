@@ -8511,25 +8511,6 @@ tid,attribute,correct_val
 448,Score,100%
 448,Sample,690 patients
 448,Stateavg,ak_scip-inf-6
-449,ProviderNumber,20017
-449,HospitalName,alaska regional hospital
-449,Address1,2801 debarr road
-449,Address2,
-449,Address3,
-449,City,anchorage
-449,State,ak
-449,ZipCode,99508
-449,CountyName,anchorage
-449,PhoneNumber,9072761131
-449,HospitalType,acute care hospitals
-449,HospitalOwner,proprietary
-449,EmergencyService,yes
-449,Condition,surgical infection prevention
-449,MeasureCode,scip-vte-1
-449,MeasureName,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
-449,Score,94%
-449,Sample,226 patients
-449,Stateavg,ak_scip-vte-1
 450,ProviderNumber,20017
 450,HospitalName,alaska regional hospital
 450,Address1,2801 debarr road
