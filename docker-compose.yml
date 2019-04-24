@@ -1,0 +1,18 @@
+version: "2.3"
+services:
+    holoclean:
+        build: .
+        runtime: nvidia
+        ipc: host
+        volumes:
+            - .:/holoclean/
+
+    postgres:
+        image: postgres:10.5-alpine
+        environment:
+            - POSTGRES_DB=holoclean
+        volumes:
+            - ./postgres-data:/var/lib/postgresql/data
+        ports:
+            - 54321:5432
+    
