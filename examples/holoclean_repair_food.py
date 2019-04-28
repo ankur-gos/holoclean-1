@@ -18,7 +18,7 @@ hc = holoclean.HoloClean(
     epochs=5,
     weight_decay=0.01,
     learning_rate=0.001,
-    threads=100,
+    threads=10,
     batch_size=32,
     verbose=True,
     timeout=3*60000,
@@ -47,7 +47,7 @@ hc.setup_domain()
 
 featurizers = [
     FreqFeaturizer(),
-    ConstraintFeaturizer()
+    RatioConstraintFeaturizer()
 ]
 
 
