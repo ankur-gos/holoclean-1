@@ -2,8 +2,8 @@ version: "2.3"
 services:
     holoclean:
         build: .
-        runtime: nvidia
         ipc: host
         volumes:
             - .:/holoclean/
+            - ./postgres-data:/var/lib/postgresql/data
     
